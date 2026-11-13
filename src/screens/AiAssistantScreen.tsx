@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
+import { GoogleGenAI } from '@google/genai';
 import { ArrowRight, Send, Trash2 } from 'lucide-react';
 import { TreasureRecord } from '../types/treasure';
+import {
+  answerFromLocalDataset,
+  buildGroundedSystemInstruction,
+  extractCitedCodes,
+} from '../utils/treasureAiGrounded';
 
 interface AiMessage {
   id: string;
@@ -35,6 +41,67 @@ export function AiAssistantScreen({
   const [messages, setMessages] = useState<AiMessage[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
+  const queryGeminiOrDataset = async (
+    trimmedQuestion: string,
+    history: AiMessage[]
+  ): Promise<{ answer: string; citedCodes: string[] }> => {
+    const clientApiKey = import.meta.env.VITE_GEMINI_API_KEY?.trim();
+
+    // 1. Direct client-side Gemini SDK call when VITE_GEMINI_API_KEY is configured (static Vercel hosting)
+    if (clientApiKey && clientApiKey !== 'MY_GEMINI_API_KEY') {
+      const ai = new GoogleGenAI({ apiKey: clientApiKey });
+      const systemInstruction = buildGroundedSystemInstruction(records);
+      const recentContext = history
+        .slice(-6)
+        .map((item) =>
+          `${item.role === 'user' ? 'Người dùng' : 'Trợ lý'}: ${item.text}`
+        )
+        .join('\n\n');
+
+      const promptContents = recentContext
+        ? `Ngữ cảnh hội thoại gần đây:\n${recentContext}\n\nCâu hỏi hiện tại của người dùng: ${trimmedQuestion}`
+        : trimmedQuestion;
+
+      const response = await ai.models.generateContent({
+        model: 'gemini-4-hydrogen',
+        contents: promptContents,
+        config: { systemInstruction },
+      });
+
+      const answer =
+        response.text?.trim() || 'Chưa có tư liệu phản hồi từ mô hình.';
+      return {
+        answer,
+        citedCodes: extractCitedCodes(answer, records),
+      };
+    }
+
+    // 2. Try server proxy if available (full-stack dev/AI Studio), otherwise fall back directly to baovat_data.json
+    try {
+      const response = await fetch('/api/ai/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: trimmedQuestion,
+          history: history.map((m) => ({ role: m.role, text: m.text })),
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        return {
+          answer: data.answer,
+          citedCodes: Array.isArray(data.citedCodes) ? data.citedCodes : [],
+        };
+      }
+    } catch {
+      // Static hosting environment without backend route -> fall through to local baovat_data.json
+    }
+
+    // 3. Deterministic local retrieval directly from imported baovat_data.json (works 100% offline/Vercel)
+    return answerFromLocalDataset(trimmedQuestion, records);
+  };
+
   const submitQuestion = async (promptText: string) => {
     const trimmed = promptText.trim();
     if (!trimmed || isLoading) return;
@@ -45,53 +112,38 @@ export function AiAssistantScreen({
       text: trimmed,
     };
 
-    const nextMessages = [...messages, userMsg];
-    setMessages(nextMessages);
+    const previousHistory = messages;
+    setMessages((prev) => [...prev, userMsg]);
     setQuestion('');
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/ai/ask', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question: trimmed,
-          history: messages.map((m) => ({ role: m.role, text: m.text })),
-        }),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        setMessages((prev) => [
-          ...prev,
-          {
-            id: `e-${Date.now()}`,
-            role: 'assistant',
-            text: data?.error || 'Không thể kết nối với Trợ lý AI Gemini. Vui lòng thử lại.',
-            error: true,
-          },
-        ]);
-        return;
-      }
+      const result = await queryGeminiOrDataset(trimmed, previousHistory);
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: `a-${Date.now()}`,
+          role: 'assistant',
+          text: result.answer,
+          citedCodes: result.citedCodes,
+        },
+      ]);
+    } catch (error: unknown) {
+      const errObj = error as { status?: number; message?: string };
+      // If Gemini SDK returned an API error (e.g. quota/invalid key), gracefully inform user or fall back
+      const fallback = answerFromLocalDataset(trimmed, records);
+      const statusMsg =
+        errObj?.status === 400 || errObj?.status === 403
+          ? 'Khóa API Gemini phía client không hợp lệ hoặc hết quyền; hệ thống đã chuyển sang tra cứu trực tiếp trên baovat_data.json:\n\n'
+          : 'Không thể kết nối trực tiếp tới dịch vụ Gemini; hệ thống đã chuyển sang tra cứu trực tiếp trên baovat_data.json:\n\n';
 
       setMessages((prev) => [
         ...prev,
         {
           id: `a-${Date.now()}`,
           role: 'assistant',
-          text: data.answer,
-          citedCodes: Array.isArray(data.citedCodes) ? data.citedCodes : [],
-        },
-      ]);
-    } catch {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: `e-${Date.now()}`,
-          role: 'assistant',
-          text: 'Lỗi kết nối mạng tới máy chủ tra cứu. Vui lòng kiểm tra kết nối và thử lại.',
-          error: true,
+          text: statusMsg + fallback.answer,
+          citedCodes: fallback.citedCodes,
         },
       ]);
     } finally {

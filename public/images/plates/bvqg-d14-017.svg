@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Bát bồng gốm văn hóa Hoa Lộc">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D14-017</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,315)" stroke="#292524" fill="none">
+    <ellipse cx="0" cy="-92" rx="142" ry="22" fill="#E6D7C3" stroke-width="3"/>
+    <path d="M-142,-92 C-128,-20 -78,18 -34,26 L34,26 C78,18 128,-20 142,-92" fill="#DFCBB2" stroke-width="3"/>
+    <path d="M-108,-44 Q0,-22 108,-44" stroke="#9A3412" stroke-width="1.8" stroke-dasharray="5 3"/>
+    <path d="M-34,26 L-56,145 L56,145 L34,26 Z" fill="#D8C2A6" stroke-width="3"/>
+    <ellipse cx="0" cy="145" rx="58" ry="12" fill="#CEB494" stroke-width="2.5"/>
+    <line x1="-180" y1="162" x2="180" y2="162" stroke="#A8A29E" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Bát bồng gốm văn hóa Hoa Lộc — Công nhận Đợt 14 (02/2026)</text>
+</svg>

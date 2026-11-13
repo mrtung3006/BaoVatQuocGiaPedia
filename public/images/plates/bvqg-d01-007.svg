@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Tượng Phật Đồng Dương">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D01-007</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,320)" stroke="#292524" fill="none">
+    <circle cx="0" cy="-126" r="22" fill="#D5CCBB" stroke-width="2.5"/>
+    <path d="M-9,-146 C-5,-160 5,-160 9,-146" fill="#D5CCBB" stroke-width="2"/>
+    <path d="M-36,-98 L36,-98 L48,108 L-48,108 Z" fill="#DBD3C4" stroke-width="2.5"/>
+    <path d="M-36,-86 C-58,-52 -56,-12 -32,6" stroke-width="2.5"/>
+    <path d="M36,-86 C58,-52 56,-12 32,6" stroke-width="2.5"/>
+    <path d="M-36,-40 Q0,-10 36,-40" stroke="#78350F" stroke-width="1.4"/>
+    <path d="M-40,12 Q0,42 40,12" stroke="#78350F" stroke-width="1.4"/>
+    <rect x="-78" y="114" width="156" height="36" fill="#CFC4B2" stroke-width="2.5"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Tượng Phật Đồng Dương (Đồng) — Văn hóa Chămpa (thế kỷ VIII–IX)</text>
+</svg>

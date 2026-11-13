@@ -1,0 +1,8 @@
+{
+  "name": "BaoVatQuocGiaPedia",
+  "description": "Cổng thông tin Tra cứu Bảo vật Quốc gia Việt Nam theo đợt công nhận, loại hình, chất liệu, thời kỳ lịch sử và nơi lưu giữ (cập nhật đến đợt 14 tháng 02/2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Cửu vị thần công">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D01-008</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,325)" stroke="#292524" fill="none">
+    <path d="M-210,-32 L175,-18 L175,18 L-210,32 Z" fill="#D5CBB9" stroke-width="3"/>
+    <ellipse cx="178" cy="0" rx="8" ry="20" fill="#C4B8A3" stroke-width="2.5"/>
+    <circle cx="-222" cy="0" r="14" fill="#D5CBB9" stroke-width="2.5"/>
+    <line x1="-110" y1="-27" x2="-110" y2="27" stroke="#78350F" stroke-width="2"/>
+    <line x1="-10" y1="-24" x2="-10" y2="24" stroke="#78350F" stroke-width="2"/>
+    <line x1="90" y1="-21" x2="90" y2="21" stroke="#78350F" stroke-width="2"/>
+    <rect x="-150" y="32" width="240" height="28" fill="#DED5C6" stroke-width="2.5"/>
+    <circle cx="-60" cy="64" r="46" fill="#E7DFD2" stroke-width="3"/>
+    <circle cx="-60" cy="64" r="12" fill="#CFC4B2" stroke-width="2"/>
+    <line x1="-240" y1="112" x2="240" y2="112" stroke="#A8A29E" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Cửu vị thần công (Dài ~5,15 m) — Triều Nguyễn (1803–1804)</text>
+</svg>

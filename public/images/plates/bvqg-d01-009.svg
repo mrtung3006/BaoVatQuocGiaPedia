@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Chuông chùa Bình Lâm">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D01-009</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,325)" stroke="#292524" fill="none">
+    <path d="M-28,-126 C-28,-156 28,-156 28,-126" stroke-width="4"/>
+    <path d="M-64,-120 C-82,-60 -84,42 -102,115 L102,115 C84,42 82,-60 64,-120 Z" fill="#D9D0C1" stroke-width="3"/>
+    <line x1="-74" y1="-48" x2="74" y2="-48" stroke="#78350F" stroke-width="1.8"/>
+    <line x1="-84" y1="36" x2="84" y2="36" stroke="#78350F" stroke-width="1.8"/>
+    <rect x="-54" y="-36" width="44" height="60" stroke="#78716C" stroke-width="1.4"/>
+    <rect x="10" y="-36" width="44" height="60" stroke="#78716C" stroke-width="1.4"/>
+    <circle cx="-54" cy="74" r="10" stroke="#78350F" stroke-width="1.8"/>
+    <circle cx="54" cy="74" r="10" stroke="#78350F" stroke-width="1.8"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Chuông chùa Bình Lâm (1295) — Thời Trần, Hà Giang</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Tượng Phật A Di Đà chùa Phật Tích">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D01-006</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,320)" stroke="#292524" fill="none">
+    <circle cx="0" cy="-120" r="24" fill="#E3DDD2" stroke-width="2.5"/>
+    <path d="M-12,-142 C-8,-156 8,-156 12,-142" fill="#E3DDD2" stroke-width="2.5"/>
+    <path d="M-24,-94 C-46,-70 -56,-20 -58,28 L58,28 C56,-20 46,-70 24,-94 Z" fill="#E3DDD2" stroke-width="2.5"/>
+    <path d="M-92,38 C-92,16 92,16 92,38 C92,58 -92,58 -92,38 Z" fill="#DDD5C7" stroke-width="2.5"/>
+    <path d="M-110,58 L110,58 L126,115 L-126,115 Z" fill="#D6CEBE" stroke-width="2.5"/>
+    <rect x="-140" y="115" width="280" height="44" fill="#CEC4B2" stroke-width="2.5"/>
+    <path d="M-58,58 C-40,78 -20,78 0,58 C20,78 40,78 58,58" stroke="#78350F" stroke-width="1.5"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Tượng Phật A Di Đà chùa Phật Tích — Thời Lý (thế kỷ XI)</text>
+</svg>

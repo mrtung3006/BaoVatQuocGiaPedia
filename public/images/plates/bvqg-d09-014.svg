@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Bản đồ họa lưu trữ Đàn đá Bình Đa">
+  <rect width="800" height="600" fill="#F4EFE6"/>
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#C8BFA8" stroke-width="1.5"/>
+  <rect x="34" y="34" width="732" height="532" fill="none" stroke="#DFD8C8" stroke-width="1"/>
+  <text x="52" y="68" font-family="Georgia, serif" font-size="14" fill="#78716C" letter-spacing="3">BẢN ĐỒ HỌA LƯU TRỮ · BVQG-D09-014</text>
+  <line x1="52" y1="84" x2="748" y2="84" stroke="#D6CEBE" stroke-width="1"/>
+  <g transform="translate(400,315)" stroke="#292524" fill="#D5CEC2" stroke-width="2.2">
+    <path d="M-210,-125 L-172,-128 L-168,125 L-214,120 Z"/>
+    <path d="M-150,-112 L-114,-115 L-110,115 L-154,110 Z"/>
+    <path d="M-92,-98 L-56,-102 L-52,102 L-96,98 Z"/>
+    <path d="M-34,-86 L2,-88 L6,92 L-38,88 Z"/>
+    <path d="M24,-74 L60,-76 L64,82 L20,78 Z"/>
+    <path d="M82,-64 L118,-66 L122,72 L78,68 Z"/>
+    <path d="M140,-54 L176,-56 L180,62 L136,58 Z"/>
+  </g>
+  <text x="400" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#44403C">Bộ thanh Đàn đá Bình Đa — Thời đại Kim khí, Đồng Nai</text>
+</svg>

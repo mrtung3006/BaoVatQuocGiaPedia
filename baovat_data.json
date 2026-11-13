@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "ten_bo_du_lieu": "BaoVatQuocGiaPedia — Bộ sưu tập Bảo vật Quốc gia Việt Nam tiêu biểu",
+    "phien_ban": "2026.02-D14",
+    "cap_nhat_den": "Đợt 14 (Quyết định số 236/QĐ-TTg ngày 03/02/2026)",
+    "tong_so_ban_ghi": 18,
+    "co_quan_quan_ly_chinh_thong": "Cục Di sản Văn hóa — Bộ Văn hóa, Thể thao và Du lịch",
+    "quyen_cong_khai": "Tư liệu học thuật phi lợi nhuận, công khai theo quyết định công nhận Bảo vật Quốc gia của Thủ tướng Chính phủ và thông tin giới thiệu công khai của các bảo tàng, di tích lưu giữ."
+  },
+  "records": [
+    {
+      "ma_bao_vat": "BVQG-D01-001",
+      "ten_bao_vat": "Trống đồng Ngọc Lũ",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Hiện vật khảo cổ",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Văn hóa Đông Sơn (khoảng thế kỷ III–II TCN)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Lịch sử Quốc gia",
+        "xa_phuong": "Phường Tràng Tiền, Quận Hoàn Kiếm",
+        "tinh_thanh": "TP. Hà Nội"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, bảo quản đặc biệt trong tủ trưng bày chuyên dụng kiểm soát nhiệt độ, độ ẩm tại Bảo tàng Lịch sử Quốc gia.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Lịch sử Quốc gia",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập, giảng dạy và nghiên cứu khoa học phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ kỹ thuật hệ thống an ninh bảo vệ, thông số cảm biến tủ trưng bày và mã định vị kho lưu trữ nội bộ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ hiện vật Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Danh mục Bảo vật Quốc gia — Trống đồng Ngọc Lũ",
+        "tac_gia": "Cục Di sản Văn hóa & Bảo tàng Lịch sử Quốc gia",
+        "duong_dan": "https://dsvh.gov.vn/trong-dong-ngoc-lu-2996",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "trong_dong_ngoc_lu",
+        "chu_thich": "Mặt trống đồng Ngọc Lũ với ngôi sao 14 cánh và các vành hoa văn sinh hoạt cộng đồng Đông Sơn (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa phục chế học thuật theo hồ sơ Cục Di sản Văn hóa / Bảo tàng Lịch sử Quốc gia",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Đường kính mặt 79 cm, chiều cao 63 cm; niên đại khoảng 2.500–2.000 năm cách ngày nay.",
+      "mo_ta_ngan": "Hiện vật tiêu biểu bậc nhất của văn hóa Đông Sơn, phát hiện năm 1893 tại làng Ngọc Lũ (Bình Lục, Hà Nam). Mặt và tang trống khắc họa tinh xảo cảnh giã gạo, đánh trống, nhảy múa, thuyền chiến và chim Lạc bay ngược chiều kim đồng hồ."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-002",
+      "ten_bao_vat": "Thạp đồng Đào Thịnh",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Hiện vật khảo cổ",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Văn hóa Đông Sơn (khoảng thế kỷ III–II TCN)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Lịch sử Quốc gia",
+        "xa_phuong": "Phường Tràng Tiền, Quận Hoàn Kiếm",
+        "tinh_thanh": "TP. Hà Nội"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "Còn khá nguyên vẹn phần thân và nắp, có một số vết phục chế bảo quản nhỏ ở chân đế, đang trưng bày thường xuyên.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Lịch sử Quốc gia",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập, giảng dạy và nghiên cứu khoa học phi lợi nhuận.",
+      "phan_khong_cong_bo": "Bản vẽ kỹ thuật hiện trạng rạn nứt vi mô phục vụ tu bổ định kỳ và quy trình an ninh nội bộ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và danh mục Bảo tàng Lịch sử Quốc gia",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Thạp đồng Đào Thịnh — Bảo vật Quốc gia tại Bảo tàng Lịch sử Quốc gia",
+        "tac_gia": "Bảo tàng Lịch sử Quốc gia",
+        "duong_dan": "https://baotanglichsu.vn/vi/Articles/3099/16176/bao-vat-quoc-gia-thap-djong-djao-thinh.html",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "thap_dong_dao_thinh",
+        "chu_thich": "Thạp đồng Đào Thịnh hình trụ thuôn nhẹ, nắp nón cụt với hoa văn thuyền chiến và các cặp nam nữ giao hoan (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa phục chế học thuật theo hồ sơ Bảo tàng Lịch sử Quốc gia",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Cao 98 cm, đường kính miệng 61 cm; phát hiện năm 1960 tại xã Đào Thịnh, Trấn Yên, Yên Bái.",
+      "mo_ta_ngan": "Thạp đồng Đông Sơn có kích thước lớn nhất được biết đến ở Việt Nam, nổi bật với nghệ thuật đúc đồng tinh xảo, băng hoa văn thuyền chiến và bốn cặp tượng nam nữ trên nắp biểu trưng cho tín ngưỡng phồn thực."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-003",
+      "ten_bao_vat": "Tượng Phật Bà Quan Âm nghìn mắt nghìn tay chùa Bút Tháp",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Tác phẩm điêu khắc tôn giáo",
+      "chat_lieu": "Gỗ sơn son thếp vàng",
+      "thoi_ky_lich_su": "Thời Lê Trung Hưng (tạo tác năm 1656)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Chùa Bút Tháp (Ninh Phúc tự)",
+        "xa_phuong": "Xã Đình Tổ, Thị xã Thuận Thành",
+        "tinh_thanh": "Tỉnh Bắc Ninh"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, được bảo vệ và thờ tự trang nghiêm tại tòa Tích Thiện Am trong khuôn viên Di tích quốc gia đặc biệt chùa Bút Tháp.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Ban Quản lý Di tích tỉnh Bắc Ninh",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập, nghiên cứu văn hóa - mỹ thuật cổ phi lợi nhuận.",
+      "phan_khong_cong_bo": "Sơ đồ bố trí thiết bị giám sát phòng cháy chữa cháy và an ninh tại tòa Tích Thiện Am.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Tượng Phật Bà Quan Âm nghìn mắt nghìn tay chùa Bút Tháp",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/tuong-phat-ba-quan-am-nghin-mat-nghin-tay-chua-but-thap-3011",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "tuong_quan_am_but_thap",
+        "chu_thich": "Tượng Phật Bà Quan Âm nghìn mắt nghìn tay bằng gỗ sơn son thếp vàng, có minh văn khắc tên nghệ nhân Trương Thọ Nam năm 1656 (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa di sản theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Tổng chiều cao cả bệ 3,7 m, ngang 2,1 m, dày 1,15 m; tạo tác vào mùa thu năm Bính Thân (1656).",
+      "mo_ta_ngan": "Kiệt tác điêu khắc gỗ Việt Nam thế kỷ XVII với 11 đầu, 42 tay lớn và 958 tay nhỏ tỏa thành vòng hào quang phía sau lưng tượng, thể hiện trình độ tạo hình uyển chuyển và bố cục chuẩn mực hiếm có."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-004",
+      "ten_bao_vat": "Cửu đỉnh (Chín đỉnh đồng triều Nguyễn)",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Đồ thờ tự và biểu tượng vương quyền",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Triều Nguyễn (đúc năm 1835–1837)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Sân Thế Miếu (Đại Nội Huế) — Trung tâm Bảo tồn Di tích Cố đô Huế",
+        "xa_phuong": "Phường Thuận Hòa, Quận Phú Xuân",
+        "tinh_thanh": "TP. Huế"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Nguyên vẹn ngoài trời tại sân Thế Miếu, có hàng rào bảo vệ và quy trình bảo dưỡng bề mặt đồng định kỳ; đồng thời được UNESCO ghi danh Ký ức Thế giới khu vực châu Á - Thái Bình Dương (2024).",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập và nghiên cứu di sản phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ quét 3D độ phân giải siêu cao bản gốc phục vụ bảo tồn kỹ thuật số của đơn vị quản lý.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và cổng thông tin Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Cửu đỉnh — Bảo vật Quốc gia tại Quần thể Di tích Cố đô Huế",
+        "tac_gia": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+        "duong_dan": "https://hueworldheritage.org.vn/vi/di-san/cuu-dinh-hoang-thanh-hue",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-004.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng dáng Cao Đỉnh — chiếc đỉnh lớn nhất đặt ở trung tâm Cửu đỉnh trước Thế Miếu (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia tổng hợp từ tư liệu Trung tâm Bảo tồn Di tích Cố đô Huế",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Chín đỉnh mang tên Cao, Nhân, Chương, Anh, Nghị, Thuần, Tuyên, Dụ, Huyền; Cao Đỉnh cao 2,5 m, nặng 2.601 kg.",
+      "mo_ta_ngan": "Bộ chín đỉnh đồng đúc dưới triều vua Minh Mạng, trên thân mỗi đỉnh chạm nổi 17 bức phù điêu tinh xảo phản ánh núi sông, biển đảo, động thực vật, thiên văn và sản vật nước Việt thế kỷ XIX."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-005",
+      "ten_bao_vat": "Bia \"Vĩnh Lăng\" (Bia Lê Lợi)",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Văn bia lịch sử",
+      "chat_lieu": "Đá trầm tích",
+      "thoi_ky_lich_su": "Thời Lê Sơ (dựng năm 1433)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Khu di tích lịch sử Lam Kinh",
+        "xa_phuong": "Xã Xuân Lam, Huyện Thọ Xuân",
+        "tinh_thanh": "Tỉnh Thanh Hóa"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, đặt trên lưng rùa đá trong nhà bia tại Khu di tích quốc gia đặc biệt Lam Kinh.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Ban Quản lý Khu di tích lịch sử Lam Kinh",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập lịch sử và nghiên cứu văn bản học Hán Nôm phi lợi nhuận.",
+      "phan_khong_cong_bo": "Bản dập độ phân giải gốc dùng trong nghiên cứu chuyên sâu cần đăng ký tại cơ quan lưu giữ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Bia Vĩnh Lăng — Bảo vật Quốc gia tại Thanh Hóa",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/bia-vinh-lang-3004",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-005.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng dáng Bia Vĩnh Lăng đặt trên quy phụ tại Lam Kinh (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo mô tả kích thước từ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Bia cao 2,79 m, rộng 1,94 m, dày 0,27 m; văn bia do Nguyễn Trãi soạn thảo năm Thuận Thiên thứ 6 (1433).",
+      "mo_ta_ngan": "Tấm bia đá lớn bậc nhất thời Lê Sơ ghi lại thân thế, sự nghiệp bình Ngô dựng nước của vua Lê Thái Tổ (Lê Lợi), do danh nhân văn hóa Nguyễn Trãi biên soạn bằng chữ Hán khắc trên đá trầm tích nguyên khối."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-006",
+      "ten_bao_vat": "Tượng Phật A Di Đà chùa Phật Tích",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Tác phẩm điêu khắc tôn giáo",
+      "chat_lieu": "Đá xanh nguyên khối",
+      "thoi_ky_lich_su": "Thời Lý (thế kỷ XI)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Chùa Phật Tích (Vạn Phúc tự)",
+        "xa_phuong": "Xã Phật Tích, Huyện Tiên Du",
+        "tinh_thanh": "Tỉnh Bắc Ninh"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Tương đối nguyên vẹn (được gắn lại phần cổ và bệ sen trong quá trình tu bổ lịch sử), đang thờ tự và bảo vệ tại Thượng điện chùa Phật Tích.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Sở VHTTDL tỉnh Bắc Ninh",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập mỹ thuật và nghiên cứu lịch sử Phật giáo phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ chi tiết các mối ghép bảo tồn vật liệu đá bên trong lõi tượng.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Tượng Phật A Di Đà chùa Phật Tích — Bảo vật Quốc gia",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/tuong-phat-a-di-da-chua-phat-tich-3010",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-006.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng tượng Phật A Di Đà tọa thiền trên đài sen tám cạnh chạm rồng thời Lý (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Cao tổng thể tính cả bệ đá 2,77 m (riêng thân tượng cao 1,86 m); tạo tác khoảng năm 1057 dưới triều Lý Thánh Tông.",
+      "mo_ta_ngan": "Tượng Phật bằng đá xanh nguyên khối tiêu biểu nhất của nghệ thuật điêu khắc thời Lý, nổi bật với đường nét thanh thoát, nếp áo mềm mại và đài sen bát giác chạm khắc rồng uốn lượn tinh xảo."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-007",
+      "ten_bao_vat": "Tượng Phật Đồng Dương",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Tác phẩm điêu khắc tôn giáo",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Văn hóa Chămpa (khoảng thế kỷ VIII–IX)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+        "xa_phuong": "Phường Bến Nghé, Quận 1",
+        "tinh_thanh": "TP. Hồ Chí Minh"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, bảo quản và trưng bày cố định trong phòng nghệ thuật Chămpa tại Bảo tàng Lịch sử TP. Hồ Chí Minh.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Lịch sử TP. Hồ Chí Minh",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập và nghiên cứu khảo cổ - mỹ thuật Chămpa phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ phân tích thành phần hợp kim vi lượng nội bộ và phương án an ninh tủ trưng bày.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và cổng thông tin Bảo tàng Lịch sử TP.HCM",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Tượng Phật Đồng Dương — Bảo vật Quốc gia",
+        "tac_gia": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+        "duong_dan": "https://www.baotanglichsutphcm.com.vn/bao-vat-quoc-gia/tuong-phat-dong-duong",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-007.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng tượng Phật Đồng Dương bằng đồng đúc liền khối trong tư thế đứng thuyết pháp (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo tư liệu Bảo tàng Lịch sử TP. Hồ Chí Minh",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Cao 119 cm, nặng khoảng 120 kg; phát hiện năm 1911 tại phế tích Phật viện Đồng Dương (Quảng Nam).",
+      "mo_ta_ngan": "Tượng đồng Chămpa lớn và đẹp bậc nhất Đông Nam Á, thể hiện Đức Phật Thích Ca đứng trang nghiêm với áo cà sa buông rủ mềm mại, minh chứng rực rỡ cho giao lưu nghệ thuật Phật giáo khu vực."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-008",
+      "ten_bao_vat": "Súng thần công thời Minh Mạng (Cửu vị thần công)",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Vũ khí cổ và biểu tượng phòng thủ kinh thành",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Triều Nguyễn (đúc năm 1803–1804, triều Gia Long; khắc tên Xuân Hạ Thu Đông và Ngũ Hành)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Kỳ Đài / Ngọ Môn — Trung tâm Bảo tồn Di tích Cố đô Huế",
+        "xa_phuong": "Phường Thuận Hòa, Quận Phú Xuân",
+        "tinh_thanh": "TP. Huế"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Cả 9 khẩu pháo đồng nguyên vẹn, trưng bày thành hai nhóm bên trong cửa Thể Nhơn và cửa Quảng Đức (Hoàng thành Huế).",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập lịch sử quân sự và luyện kim cổ Việt Nam phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ kỹ thuật khung giá đỡ chịu lực và kế hoạch di dời khẩn cấp nội bộ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Cửu vị thần công — Bảo vật Quốc gia tại Huế",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/cuu-vi-than-cong-3018",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-008.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng cấu tạo nòng pháo và giá gỗ Cửu vị thần công đặt tại Hoàng thành Huế (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Mỗi khẩu dài khoảng 5,15 m, nặng trên 10 tấn; hoàn thành đúc đầu năm 1804 tại kinh đô Huế.",
+      "mo_ta_ngan": "Chín khẩu đại bác bằng đồng lớn nhất Việt Nam, mang tên Tứ Thời (Xuân, Hạ, Thu, Đông) và Ngũ Hành (Kim, Mộc, Thủy, Hỏa, Thổ), trên thân khắc rõ lịch sử chế tác và bài minh của triều đình."
+    },
+    {
+      "ma_bao_vat": "BVQG-D01-009",
+      "ten_bao_vat": "Chuông chùa Bình Lâm",
+      "dot_cong_nhan": 1,
+      "dot_cong_nhan_label": "Đợt 1 (10/2012)",
+      "loai_hinh": "Đồ thờ tự",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Thời Trần (thế kỷ XIII–XIV)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Chùa Bình Lâm",
+        "xa_phuong": "Xã Phú Linh, Huyện Vị Xuyên",
+        "tinh_thanh": "Tỉnh Hà Giang"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1426/QĐ-TTg ngày 01/10/2012 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, có giá treo bảo vệ tại chùa Bình Lâm vùng biên cương Hà Giang.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Sở VHTTDL tỉnh Hà Giang",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập và nghiên cứu văn hóa - lịch sử biên giới phía Bắc phi lợi nhuận.",
+      "phan_khong_cong_bo": "Sơ đồ thiết bị cảnh báo an ninh di tích cấp địa phương.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1426/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Chuông chùa Bình Lâm — Bảo vật Quốc gia tỉnh Hà Giang",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/chuong-chua-binh-lam-3015",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d01-009.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng quai Bồ Lao hai đầu và bài minh khắc trên 4 ô chuông chùa Bình Lâm (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Cao 103 cm, đường kính miệng 58 cm, nặng 193 kg; đúc vào năm 1295 dưới triều vua Trần Anh Tông.",
+      "mo_ta_ngan": "Quả chuông đồng thời Trần còn lưu giữ bài minh chữ Hán có giá trị lịch sử đặc biệt, khẳng định sự hiện diện văn hóa và hành chính vững chắc của nhà Trần ở vùng cực Bắc Tổ quốc."
+    },
+    {
+      "ma_bao_vat": "BVQG-D02-010",
+      "ten_bao_vat": "Thạp gốm hoa nâu thời Trần",
+      "dot_cong_nhan": 2,
+      "dot_cong_nhan_label": "Đợt 2 (12/2013)",
+      "loai_hinh": "Hiện vật gốm sứ",
+      "chat_lieu": "Gốm hoa nâu",
+      "thoi_ky_lich_su": "Thời Trần (thế kỷ XIII–XIV)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Lịch sử Quốc gia",
+        "xa_phuong": "Phường Tràng Tiền, Quận Hoàn Kiếm",
+        "tinh_thanh": "TP. Hà Nội"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 2599/QĐ-TTg ngày 30/12/2013 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, lưu giữ và trưng bày trong bộ sưu tập gốm hoa nâu tại Bảo tàng Lịch sử Quốc gia.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Lịch sử Quốc gia",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập và nghiên cứu lịch sử gốm sứ Việt Nam phi lợi nhuận.",
+      "phan_khong_cong_bo": "Mã kiểm kê kho nội bộ và thông số ánh sáng bảo quản chi tiết.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 2599/QĐ-TTg và hồ sơ Bảo tàng Lịch sử Quốc gia",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Gốm hoa nâu thời Lý – Trần trong danh mục Bảo vật Quốc gia",
+        "tac_gia": "Bảo tàng Lịch sử Quốc gia",
+        "duong_dan": "https://baotanglichsu.vn/vi/Articles/3099/16420/bao-vat-quoc-gia-thap-gom-hoa-nau-thoi-tran.html",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "gom_hoa_nau_ly_tran",
+        "chu_thich": "Hiện vật gốm hoa nâu thời Lý – Trần với kỹ thuật khắc chìm tô men nâu sắt trên nền men ngà (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa học thuật theo hồ sơ Bảo tàng Lịch sử Quốc gia",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Cao khoảng 52,5 cm, đường kính miệng 34 cm; thuộc dòng gốm hoa nâu đỉnh cao thế kỷ XIII–XIV.",
+      "mo_ta_ngan": "Đại diện xuất sắc cho dòng gốm hoa nâu thuần Việt thời Lý – Trần, phối hợp hài hòa giữa men ngà ấm áp và họa tiết hoa sen, chim thú, võ sĩ vẽ men nâu sắt đầy sức sống."
+    },
+    {
+      "ma_bao_vat": "BVQG-D02-011",
+      "ten_bao_vat": "Trống đồng Hoàng Hạ",
+      "dot_cong_nhan": 2,
+      "dot_cong_nhan_label": "Đợt 2 (12/2013)",
+      "loai_hinh": "Hiện vật khảo cổ",
+      "chat_lieu": "Đồng",
+      "thoi_ky_lich_su": "Văn hóa Đông Sơn (khoảng thế kỷ III–II TCN)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Lịch sử Quốc gia",
+        "xa_phuong": "Phường Tràng Tiền, Quận Hoàn Kiếm",
+        "tinh_thanh": "TP. Hà Nội"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 2599/QĐ-TTg ngày 30/12/2013 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Còn nguyên vẹn phần mặt và thân, lớp gỉ đồng xanh ổn định, đang trưng bày trong hệ thống hiện vật Đông Sơn.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Lịch sử Quốc gia",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập và nghiên cứu khảo cổ học phi lợi nhuận.",
+      "phan_khong_cong_bo": "Thông số phân tích luyện kim quang phổ chưa công bố đầy đủ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 2599/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Trống đồng Hoàng Hạ — Bảo vật Quốc gia",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/trong-dong-hoang-ha-3029",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d02-011.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mặt trống đồng Hoàng Hạ với ngôi sao 16 cánh và vành chim Lạc bay (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Đường kính mặt 78,5 cm, chiều cao 61,5 cm; phát hiện năm 1937 tại làng Hoàng Hạ (Phú Xuyên, Hà Nội).",
+      "mo_ta_ngan": "Một trong những trống đồng Đông Sơn loại I Heger đẹp nhất cùng nhóm với Ngọc Lũ, nổi bật với ngôi sao trung tâm 16 cánh và họa tiết lễ hội hóa trang lông chim sinh động."
+    },
+    {
+      "ma_bao_vat": "BVQG-D03-012",
+      "ten_bao_vat": "82 Bia Tiến sĩ Văn Miếu – Quốc Tử Giám",
+      "dot_cong_nhan": 3,
+      "dot_cong_nhan_label": "Đợt 3 (01/2015)",
+      "loai_hinh": "Văn bia lịch sử",
+      "chat_lieu": "Đá",
+      "thoi_ky_lich_su": "Thời Lê Sơ – Mạc – Lê Trung Hưng (dựng giai đoạn 1484–1780)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Trung tâm Hoạt động Văn hóa Khoa học Văn Miếu – Quốc Tử Giám",
+        "xa_phuong": "Phường Văn Miếu, Quận Đống Đa",
+        "tinh_thanh": "TP. Hà Nội"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 53/QĐ-TTg ngày 14/01/2015 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "82 bia đá đặt trên lưng rùa đá chia thành hai dãy nhà bia Đông – Tây bên cạnh giếng Thiên Quang, được bảo vệ và theo dõi vi khí hậu thường xuyên.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Trung tâm Hoạt động VHKH Văn Miếu – Quốc Tử Giám",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập truyền thống hiếu học và nghiên cứu văn bia khoa cử phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hệ thống cảm biến đo độ ẩm bề mặt đá và phương án an ninh khu vực nhà bia.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 53/QĐ-TTg và hồ sơ Di sản tư liệu Thế giới UNESCO",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Hệ thống 82 Bia Tiến sĩ tại Văn Miếu – Quốc Tử Giám",
+        "tac_gia": "Trung tâm Hoạt động VHKH Văn Miếu – Quốc Tử Giám",
+        "duong_dan": "https://vanmieu.gov.vn/vi/di-san/bia-tien-si",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "bia_tien_si_van_mieu",
+        "chu_thich": "Bia đá Tiến sĩ đặt trên lưng rùa đá trong nhà bia Văn Miếu – Quốc Tử Giám ghi danh 1.307 lượt tiến sĩ các khoa thi (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa di sản theo hồ sơ Văn Miếu – Quốc Tử Giám",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Gồm 82 bia đá ghi danh các khoa thi từ năm 1442 đến năm 1779; được UNESCO ghi danh Ký ức Thế giới năm 2011.",
+      "mo_ta_ngan": "Bộ sưu tập văn bia khoa cử độc đáo ghi lại họ tên, quê quán của 1.304 vị tiến sĩ qua 82 khoa thi triều Lê – Mạc, kèm các bài ký khẳng định vai trò 'Hiền tài là nguyên khí của quốc gia'."
+    },
+    {
+      "ma_bao_vat": "BVQG-D05-013",
+      "ten_bao_vat": "Mộc bản triều Nguyễn",
+      "dot_cong_nhan": 5,
+      "dot_cong_nhan_label": "Đợt 5 (12/2016)",
+      "loai_hinh": "Tài liệu lưu trữ mộc bản",
+      "chat_lieu": "Gỗ (gỗ thị, gỗ lê, gỗ táo)",
+      "thoi_ky_lich_su": "Triều Nguyễn (thế kỷ XIX – đầu thế kỷ XX)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Trung tâm Lưu trữ Quốc gia IV (Cục Văn thư và Lưu trữ Nhà nước)",
+        "xa_phuong": "Phường 4",
+        "tinh_thanh": "TP. Đà Lạt, Tỉnh Lâm Đồng"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 2496/QĐ-TTg ngày 22/12/2016 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "34.555 tấm (33.976 tấm theo thống kê kiểm kê mới nhất còn nguyên khối bảo quản trong kho chuyên dụng kiểm soát ẩm nghiêm ngặt).",
+      "nguoi_cho_phep_cong_bo": "Cục Văn thư và Lưu trữ Nhà nước & Trung tâm Lưu trữ Quốc gia IV",
+      "pham_vi_duoc_phep": "Tra cứu mục lục công khai, học tập sử học và nghiên cứu thư tịch cổ phi lợi nhuận.",
+      "phan_khong_cong_bo": "Kho lưu trữ bản gốc không mở tham quan tự do; bản số hóa độ phân giải cao cấp theo thủ tục đọc tài liệu của Trung tâm.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 2496/QĐ-TTg và cổng thông tin Di sản tư liệu UNESCO",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Mộc bản triều Nguyễn — Di sản tư liệu Thế giới & Bảo vật Quốc gia",
+        "tac_gia": "Trung tâm Lưu trữ Quốc gia IV",
+        "duong_dan": "https://mocban.vn/gioi-thieu-moc-ban-trieu-nguyen",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d05-013.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng tấm mộc bản khắc ngược chữ Hán triều Nguyễn dùng để in Quốc sử quán sử liệu (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo tư liệu Trung tâm Lưu trữ Quốc gia IV",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Khối tài liệu gồm 34.555 tấm ván khắc chữ Hán – Nôm ngược của Quốc sử quán triều Nguyễn.",
+      "mo_ta_ngan": "Di sản tư liệu thế giới đầu tiên của Việt Nam được UNESCO công nhận (2009), lưu giữ nguyên bản ván khắc in các bộ chính sử, địa chí và điển chế quan trọng nhất của triều Nguyễn như Đại Nam thực lục."
+    },
+    {
+      "ma_bao_vat": "BVQG-D09-014",
+      "ten_bao_vat": "Đàn đá Bình Đa",
+      "dot_cong_nhan": 9,
+      "dot_cong_nhan_label": "Đợt 9 (12/2020)",
+      "loai_hinh": "Nhạc khí cổ",
+      "chat_lieu": "Đá",
+      "thoi_ky_lich_su": "Thời đại Kim khí (khoảng 3.000 năm cách ngày nay)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Đồng Nai",
+        "xa_phuong": "Phường Tân Phong, TP. Biên Hòa",
+        "tinh_thanh": "Tỉnh Đồng Nai"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 2283/QĐ-TTg ngày 31/12/2020 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Bộ gồm nhiều thanh đá còn nguyên âm thanh thanh thoát, bảo quản và trưng bày tại Bảo tàng Đồng Nai.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Đồng Nai",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập âm nhạc dân tộc học và khảo cổ học miền Đông Nam Bộ phi lợi nhuận.",
+      "phan_khong_cong_bo": "Số liệu đo tần số âm học chi tiết chưa công bố rộng rãi ngoài báo cáo chuyên ngành.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 2283/QĐ-TTg và hồ sơ Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Đàn đá Bình Đa — Bảo vật Quốc gia tại Đồng Nai",
+        "tac_gia": "Cục Di sản Văn hóa",
+        "duong_dan": "https://dsvh.gov.vn/dan-da-binh-da",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d09-014.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng bộ thanh đàn đá Bình Đa ghè đẽo thủ công trên đá sừng bazan (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo hồ sơ Cục Di sản Văn hóa",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Phát hiện năm 1979 tại di chỉ Bình Đa (Biên Hòa), niên đại khoảng 3.000 năm trước.",
+      "mo_ta_ngan": "Bộ nhạc khí gõ bằng đá cổ xưa tiêu biểu của vùng lưu vực sông Đồng Nai, minh chứng cho đời sống tinh thần và trình độ cảm thụ âm thanh ngũ cung sớm của cư dân tiền sử Nam Bộ."
+    },
+    {
+      "ma_bao_vat": "BVQG-D12-015",
+      "ten_bao_vat": "Ấn vàng \"Hoàng đế chi bảo\"",
+      "dot_cong_nhan": 12,
+      "dot_cong_nhan_label": "Đợt 12 (01/2024)",
+      "loai_hinh": "Ấn triện hoàng gia",
+      "chat_lieu": "Vàng",
+      "thoi_ky_lich_su": "Triều Nguyễn (đúc năm Minh Mạng thứ 4, 1823)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Hoàng gia Nam Hồng",
+        "xa_phuong": "Phường Đình Bảng, TP. Từ Sơn",
+        "tinh_thanh": "Tỉnh Bắc Ninh"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 73/QĐ-TTg ngày 18/01/2024 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Ảnh chụp tư liệu giảm kích thước (bản phổ biến nghiên cứu)",
+      "tinh_trang_ban_goc": "Nguyên vẹn, đã hồi hương từ Pháp về Việt Nam cuối năm 2023 và được bảo quản, trưng bày nghiêm ngặt tại Bảo tàng Hoàng gia Nam Hồng.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Hoàng gia Nam Hồng",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập lịch sử cận đại và nghiên cứu kim hoàn cung đình phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ an ninh vận chuyển hồi hương và thông số kỹ thuật tủ két trưng bày.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 73/QĐ-TTg ngày 18/01/2024 và thông cáo của Cục Di sản Văn hóa",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Quyết định 73/QĐ-TTg công nhận Bảo vật Quốc gia đợt 12 — Ấn vàng Hoàng đế chi bảo",
+        "tac_gia": "Cổng Thông tin Điện tử Chính phủ & Cục Di sản Văn hóa",
+        "duong_dan": "https://vanban.chinhphu.vn/?pageid=27160&docid=209525",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "an_hoang_de_chi_bao",
+        "chu_thich": "Ấn vàng Hoàng đế chi bảo quai rồng năm móng đúc năm 1823 triều vua Minh Mạng (bản giảm kích thước).",
+        "nguon_anh": "Tư liệu minh họa học thuật theo thông cáo Cục Di sản Văn hóa",
+        "loai_hinh_anh": "photo"
+      },
+      "kich_thuoc_nien_dai": "Cao 10,4 cm, mặt ấn vuông 13,8 x 13,7 cm, nặng 10,78 kg vàng tuổi cao; đúc ngày Giáp Thìn tháng 2 năm Minh Mạng thứ 4 (1823).",
+      "mo_ta_ngan": "Kim bảo lớn và quan trọng bậc nhất của vương triều Nguyễn, từng được dùng đóng trên các văn kiện trọng đại của nhà nước quân chủ và được Hoàng đế Bảo Đại trao lại cho chính quyền Cách mạng năm 1945."
+    },
+    {
+      "ma_bao_vat": "BVQG-D13-016",
+      "ten_bao_vat": "Đàn đá Đắk Sơn",
+      "dot_cong_nhan": 13,
+      "dot_cong_nhan_label": "Đợt 13 (12/2024)",
+      "loai_hinh": "Nhạc khí cổ",
+      "chat_lieu": "Đá",
+      "thoi_ky_lich_su": "Thời đại Tiền sử – Kim khí (khoảng 3.000–3.500 năm cách ngày nay)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng tỉnh Đắk Nông",
+        "xa_phuong": "Phường Nghĩa Trung, TP. Gia Nghĩa",
+        "tinh_thanh": "Tỉnh Đắk Nông"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 1712/QĐ-TTg ngày 31/12/2024 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Gồm 16 thanh đá còn giữ nguyên âm sắc tự nhiên, được bảo quản và giới thiệu tại Bảo tàng tỉnh Đắk Nông.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Sở VHTTDL tỉnh Đắk Nông",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập văn hóa Tây Nguyên và khảo cổ học tiền sử phi lợi nhuận.",
+      "phan_khong_cong_bo": "Tọa độ địa điểm phát hiện chính xác chưa công bố rộng để phòng chống đào bới trái phép.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 1712/QĐ-TTg ngày 31/12/2024",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Quyết định 1712/QĐ-TTg công nhận 33 Bảo vật Quốc gia đợt 13",
+        "tac_gia": "Báo Điện tử Chính phủ",
+        "duong_dan": "https://baochinhphu.vn/cong-nhan-33-bao-vat-quoc-gia-dot-13-102250102165219446.htm",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d13-016.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng 16 thanh Đàn đá Đắk Sơn vùng cao nguyên M'nông (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia tổng hợp từ tư liệu công bố Đợt 13",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Bộ gồm 16 thanh đá phiến dài ngắn khác nhau, phát hiện tại xã Đắk Sơn (huyện Đắk Mil), niên đại khoảng 3.000–3.500 năm.",
+      "mo_ta_ngan": "Bộ đàn đá cổ có số lượng thanh lớn và cấu trúc âm bậc phong phú bậc nhất Tây Nguyên, góp phần làm sáng tỏ truyền thống diễn tấu nhạc khí đá lâu đời của cư dân vùng cao nguyên."
+    },
+    {
+      "ma_bao_vat": "BVQG-D14-017",
+      "ten_bao_vat": "Bát bồng gốm văn hóa Hoa Lộc",
+      "dot_cong_nhan": 14,
+      "dot_cong_nhan_label": "Đợt 14 (02/2026)",
+      "loai_hinh": "Hiện vật gốm sứ",
+      "chat_lieu": "Gốm",
+      "thoi_ky_lich_su": "Văn hóa Hoa Lộc (khoảng 4.000–3.800 năm cách ngày nay)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng Gốm thời dựng nước",
+        "xa_phuong": "Phường Thảo Điền, TP. Thủ Đức",
+        "tinh_thanh": "TP. Hồ Chí Minh"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 236/QĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Gần như nguyên vẹn hoàn toàn — tình trạng đặc biệt hiếm đối với đồ gốm thời đại tiền Hùng Vương, hiện đang trưng bày tại TP. Hồ Chí Minh.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng Gốm thời dựng nước",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập khảo cổ học tiền sử và nghiên cứu kỹ thuật gốm cổ phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ giám định chi tiết nội bộ của chủ sở hữu bảo tàng ngoài công lập.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 236/QĐ-TTg ngày 03/02/2026 (Đợt 14)",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Quyết định số 236/QĐ-TTg công nhận Bảo vật Quốc gia Đợt 14 — Bát bồng gốm văn hóa Hoa Lộc",
+        "tac_gia": "Cục Di sản Văn hóa & Báo Thanh Tra / Znews",
+        "duong_dan": "https://thanhtra.com.vn/van-hoa-giai-tri/30-hien-vat-nhom-hien-vat-duoc-cong-nhan-bao-vat-quoc-gia-dot-14-nam-2025-c8e58c8a2.html",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d14-017.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng dáng Bát bồng gốm chân cao văn hóa Hoa Lộc gần như nguyên vẹn (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo thông tin công bố Đợt 14 (02/2026)",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Niên đại khoảng 4.000–3.800 năm cách ngày nay, thuộc giai đoạn sơ kỳ thời đại Kim khí.",
+      "mo_ta_ngan": "Cổ vật gốm quý hiếm bậc nhất thuộc văn hóa Hoa Lộc giữ được trạng thái gần như nguyên vẹn, phản ánh tư duy thẩm mỹ tinh tế và đời sống tín ngưỡng nghi lễ của cư dân Việt cổ."
+    },
+    {
+      "ma_bao_vat": "BVQG-D14-018",
+      "ten_bao_vat": "Sưu tập đồ thờ bằng vàng tại tháp Chăm An Phú",
+      "dot_cong_nhan": 14,
+      "dot_cong_nhan_label": "Đợt 14 (02/2026)",
+      "loai_hinh": "Đồ thờ tự",
+      "chat_lieu": "Vàng",
+      "thoi_ky_lich_su": "Văn hóa Chămpa (khoảng thế kỷ IX–X)",
+      "noi_luu_giu": {
+        "ten_co_quan": "Bảo tàng tỉnh Gia Lai",
+        "xa_phuong": "Phường Tây Sơn, TP. Pleiku",
+        "tinh_thanh": "Tỉnh Gia Lai"
+      },
+      "quyet_dinh_cong_nhan": "Quyết định số 236/QĐ-TTg ngày 03/02/2026 của Thủ tướng Chính phủ",
+      "loai_ban_hien_thi": "Bản đồ họa lưu trữ giảm kích thước (bản vẽ hình thái học thuật)",
+      "tinh_trang_ban_goc": "Nguyên vẹn theo bộ sưu tập khai quật khảo cổ học tại di tích tháp An Phú, bảo quản nghiêm ngặt tại Bảo tàng tỉnh Gia Lai.",
+      "nguoi_cho_phep_cong_bo": "Cục Di sản Văn hóa (Bộ VHTTDL) và Bảo tàng tỉnh Gia Lai",
+      "pham_vi_duoc_phep": "Tra cứu công khai, học tập văn hóa Chămpa ở Tây Nguyên và nghiên cứu khoa học phi lợi nhuận.",
+      "phan_khong_cong_bo": "Hồ sơ kỹ thuật kho cất giữ bảo vật kim loại quý và quy trình bảo vệ nội bộ.",
+      "muc_kiem_chung": "Đã kiểm chứng đối chiếu Quyết định số 236/QĐ-TTg ngày 03/02/2026 (Đợt 14)",
+      "nguon_tu_lieu": {
+        "ten_nguon": "Sưu tập đồ thờ bằng vàng tại tháp Chăm An Phú được công nhận Bảo vật Quốc gia Đợt 14",
+        "tac_gia": "Báo VietNamNet & Sở VHTTDL Gia Lai",
+        "duong_dan": "https://vietnamnet.vn/gia-lai-co-them-2-bao-vat-quoc-gia-moi-2487863.html",
+        "ngay_truy_cap": "10/02/2026"
+      },
+      "hinh_anh": {
+        "duong_dan": "/images/plates/bvqg-d14-018.svg",
+        "chu_thich": "Bản đồ họa lưu trữ mô phỏng hiện vật lễ khí bằng vàng phát hiện trong hố thiêng tháp Chăm An Phú (bản giảm kích thước).",
+        "nguon_anh": "Bản đồ họa học thuật BaoVatQuocGiaPedia theo thông tin công bố Đợt 14 (02/2026)",
+        "loai_hinh_anh": "plate"
+      },
+      "kich_thuoc_nien_dai": "Phát hiện qua khai quật khảo cổ tại tháp An Phú (TP. Pleiku, Gia Lai); niên đại thế kỷ IX–X.",
+      "mo_ta_ngan": "Bộ lễ khí kim loại quý đặt trong hố thiêng tháp Chăm An Phú, cung cấp bằng chứng khảo cổ học trực tiếp về sự giao lưu văn hóa – tôn giáo Chămpa tại khu vực Bắc Tây Nguyên."
+    }
+  ]
+}

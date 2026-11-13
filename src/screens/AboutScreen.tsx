@@ -1,25 +1,109 @@
 import { Download, FileSpreadsheet, FileJson } from 'lucide-react';
-import { FilterState, TreasureDataset } from '../types/treasure';
+import { FilterState, TreasureDataset, TreasureRecord } from '../types/treasure';
 
 interface AboutScreenProps {
   dataset: TreasureDataset;
-  filteredCount: number;
+  filteredRecords: TreasureRecord[];
   filters: FilterState;
 }
 
-export function AboutScreen({ dataset, filteredCount, filters }: AboutScreenProps) {
+function escapeCsvCell(value: string): string {
+  const normalized = value.replace(/\r?\n/g, ' ').trim();
+  if (normalized.includes('"') || normalized.includes(',') || normalized.includes(';')) {
+    return `"${normalized.replace(/"/g, '""')}"`;
+  }
+  return normalized;
+}
+
+function buildCsvContent(records: TreasureRecord[]): string {
+  const headers = [
+    'Mã bảo vật',
+    'Tên bảo vật',
+    'Đợt công nhận',
+    'Loại hình',
+    'Chất liệu',
+    'Thời kỳ lịch sử',
+    'Cơ quan lưu giữ',
+    'Xã/Phường',
+    'Tỉnh/Thành phố',
+    'Quyết định công nhận',
+    'Loại bản đang hiển thị',
+    'Tình trạng bản gốc',
+    'Người cho phép công bố',
+    'Phạm vi được phép',
+    'Phần không công bố',
+    'Mức kiểm chứng',
+    'Tên nguồn tư liệu',
+    'Tác giả nguồn',
+    'Đường dẫn nguồn',
+    'Ngày truy cập',
+  ];
+
+  const rows = records.map((r) => [
+    r.ma_bao_vat,
+    r.ten_bao_vat,
+    r.dot_cong_nhan_label,
+    r.loai_hinh,
+    r.chat_lieu,
+    r.thoi_ky_lich_su,
+    r.noi_luu_giu.ten_co_quan,
+    r.noi_luu_giu.xa_phuong,
+    r.noi_luu_giu.tinh_thanh,
+    r.quyet_dinh_cong_nhan,
+    r.loai_ban_hien_thi,
+    r.tinh_trang_ban_goc,
+    r.nguoi_cho_phep_cong_bo,
+    r.pham_vi_duoc_phep,
+    r.phan_khong_cong_bo,
+    r.muc_kiem_chung,
+    r.nguon_tu_lieu.ten_nguon,
+    r.nguon_tu_lieu.tac_gia,
+    r.nguon_tu_lieu.duong_dan,
+    r.nguon_tu_lieu.ngay_truy_cap,
+  ]);
+
+  const lines = [
+    headers.map(escapeCsvCell).join(','),
+    ...rows.map((row) => row.map((cell) => escapeCsvCell(String(cell ?? ''))).join(',')),
+  ];
+
+  return '\uFEFF' + lines.join('\r\n');
+}
+
+function triggerClientDownload(content: string, filename: string, mimeType: string) {
+  const blob = new Blob([content], { type: mimeType });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+export function AboutScreen({ dataset, filteredRecords, filters }: AboutScreenProps) {
   const hasActiveFilter = Object.values(filters).some((v) => v.trim() !== '');
 
-  const buildExportUrl = (format: 'json' | 'csv', onlyFiltered: boolean) => {
-    const params = new URLSearchParams({ format });
-    if (onlyFiltered) {
-      if (filters.q) params.set('q', filters.q);
-      if (filters.dot) params.set('dot', filters.dot);
-      if (filters.loai_hinh) params.set('loai_hinh', filters.loai_hinh);
-      if (filters.chat_lieu) params.set('chat_lieu', filters.chat_lieu);
-      if (filters.tinh_thanh) params.set('tinh_thanh', filters.tinh_thanh);
-    }
-    return `/api/export?${params.toString()}`;
+  const handleExportJson = (recordsToExport: TreasureRecord[], filename: string) => {
+    const payload = {
+      metadata: {
+        ...dataset.metadata,
+        so_ban_ghi_xuat: recordsToExport.length,
+        ngay_xuat: new Date().toISOString().split('T')[0],
+      },
+      records: recordsToExport,
+    };
+    triggerClientDownload(
+      JSON.stringify(payload, null, 2),
+      filename,
+      'application/json;charset=utf-8'
+    );
+  };
+
+  const handleExportCsv = (recordsToExport: TreasureRecord[], filename: string) => {
+    const csv = buildCsvContent(recordsToExport);
+    triggerClientDownload(csv, filename, 'text/csv;charset=utf-8');
   };
 
   return (
@@ -77,10 +161,10 @@ export function AboutScreen({ dataset, filteredCount, filters }: AboutScreenProp
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <a
-            href={buildExportUrl('json', false)}
-            download="baovat_data.json"
-            className="flex items-center justify-between gap-4 p-4 min-h-[56px] bg-[#FBF9F5] hover:bg-[#F3EFE7] border border-[#D6CEBE] rounded-md transition-colors"
+          <button
+            type="button"
+            onClick={() => handleExportJson(dataset.records, 'baovat_data.json')}
+            className="text-left flex items-center justify-between gap-4 p-4 min-h-[56px] bg-[#FBF9F5] hover:bg-[#F3EFE7] border border-[#D6CEBE] rounded-md transition-colors"
           >
             <div className="flex items-center gap-3">
               <FileJson className="w-6 h-6 text-[#9A3412] shrink-0" aria-hidden="true" />
@@ -94,12 +178,12 @@ export function AboutScreen({ dataset, filteredCount, filters }: AboutScreenProp
               </div>
             </div>
             <Download className="w-5 h-5 text-[#9A3412] shrink-0" aria-hidden="true" />
-          </a>
+          </button>
 
-          <a
-            href={buildExportUrl('csv', false)}
-            download="baovat_data.csv"
-            className="flex items-center justify-between gap-4 p-4 min-h-[56px] bg-[#FBF9F5] hover:bg-[#F3EFE7] border border-[#D6CEBE] rounded-md transition-colors"
+          <button
+            type="button"
+            onClick={() => handleExportCsv(dataset.records, 'baovat_data.csv')}
+            className="text-left flex items-center justify-between gap-4 p-4 min-h-[56px] bg-[#FBF9F5] hover:bg-[#F3EFE7] border border-[#D6CEBE] rounded-md transition-colors"
           >
             <div className="flex items-center gap-3">
               <FileSpreadsheet className="w-6 h-6 text-[#1E3A8A] shrink-0" aria-hidden="true" />
@@ -113,31 +197,31 @@ export function AboutScreen({ dataset, filteredCount, filters }: AboutScreenProp
               </div>
             </div>
             <Download className="w-5 h-5 text-[#1E3A8A] shrink-0" aria-hidden="true" />
-          </a>
+          </button>
         </div>
 
         {hasActiveFilter && (
           <div className="pt-4 border-t border-[#EFE9DD] space-y-3">
             <p className="text-sm font-medium text-[#292524]">
-              Bạn đang áp dụng bộ lọc tại Danh mục ({filteredCount} bản ghi phù hợp):
+              Bạn đang áp dụng bộ lọc tại Danh mục ({filteredRecords.length} bản ghi phù hợp):
             </p>
             <div className="flex flex-wrap gap-3">
-              <a
-                href={buildExportUrl('json', true)}
-                download="baovat_data_loc.json"
+              <button
+                type="button"
+                onClick={() => handleExportJson(filteredRecords, 'baovat_data_loc.json')}
                 className="inline-flex items-center gap-2 px-4 py-2.5 min-h-[44px] bg-[#9A3412] text-white text-sm font-medium rounded-md hover:bg-[#7C2D12] transition-colors"
               >
                 <Download className="w-4 h-4" aria-hidden="true" />
-                <span>Xuất {filteredCount} bản ghi đã lọc (JSON)</span>
-              </a>
-              <a
-                href={buildExportUrl('csv', true)}
-                download="baovat_data_loc.csv"
+                <span>Xuất {filteredRecords.length} bản ghi đã lọc (JSON)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => handleExportCsv(filteredRecords, 'baovat_data_loc.csv')}
                 className="inline-flex items-center gap-2 px-4 py-2.5 min-h-[44px] bg-[#1C1917] text-white text-sm font-medium rounded-md hover:bg-[#292524] transition-colors"
               >
                 <Download className="w-4 h-4" aria-hidden="true" />
-                <span>Xuất {filteredCount} bản ghi đã lọc (CSV)</span>
-              </a>
+                <span>Xuất {filteredRecords.length} bản ghi đã lọc (CSV)</span>
+              </button>
             </div>
           </div>
         )}
